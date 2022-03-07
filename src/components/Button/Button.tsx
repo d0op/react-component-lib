@@ -1,14 +1,11 @@
+import React from "react";
 
-import React from 'react'
-
-interface ButtonProps{
-    label:string
+interface ButtonProps {
+  label: string;
 }
 
- const Button = (props:ButtonProps) => {
-  return (
-    <div>{props.label}</div>
-  )
-}
+const Button = (props: ButtonProps) => {
+  return <button style={{ color: "red" }}>{props.label}</button>;
+};
 
 export default Button;

@@ -1,9 +1,9 @@
 {
-  "name": "@d0op/component-library",
+  "name": "@d0op/react-component-lib",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/component-library"
+    "registry": "https://npm.pkg.github.com/d0op"
   },
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "A react component library",
   "scripts": {
     "rollup": "rollup -c",
